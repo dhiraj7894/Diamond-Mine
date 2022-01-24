@@ -18,11 +18,12 @@ namespace Diamond.Core
 		{
 			Am = FindObjectOfType<Diamond.Core.AudioManager>();
 			gm = GetComponent<GameManager>();
-			LevelGenrator();
-			bonusAmount();
+			
 		}
 		void Start()
 		{
+			LevelGenrator();
+			bonusAmount();
 			gm.TotalGem = gm.CurrentGem;
 		}
 

@@ -16,9 +16,9 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 0
+  - 1651826868502160
   appLabels:
-  - App Name
+  - Diamond Mine
   cookie: 1
   logging: 1
   status: 1

@@ -55,7 +55,7 @@ public class SaveAndLoadArea_4 : MonoBehaviour
 
 
 		SaveManagerArea_4.Save(data);
-		print("AREA_2 DATA SAVED");
+		print("AREA_4 DATA SAVED");
 	}
 	public void LoadGame()
 	{
@@ -83,6 +83,6 @@ public class SaveAndLoadArea_4 : MonoBehaviour
 		FMCB.CostToUpdate = data.FilterMachineCapacityCost;
 
 
-		print("AREA_2 DATA LOADED");
+		print("AREA_4 DATA LOADED");
 	}
 }

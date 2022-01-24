@@ -49,6 +49,7 @@ namespace Diamond.Core
 			Destroy(Instantiate(ParticalEffect, transform.position + new Vector3(0, 2, 0), Quaternion.identity), 2);
 			unlocableObject.SetActive(true);
 			this.gameObject.SetActive(false);
+			FindObjectOfType<Analytics>().AreaExpansionSentData(this.transform);
 			isUnlocked = true;
 			
 		}

@@ -52,20 +52,26 @@ namespace Diamond.Core
 				upgrade.Play();
 				try
 				{
-
-					Am.source.PlayOneShot(Am.Upgrade);
-					gm.MaxMoney -= CostToUpdate;					
-					TotalCapacity += capacityMultiplier;					
-					StorageArea.GetComponent<Diamond.Control.MineMachine>().MaxMinedObjectCanStore = TotalCapacity;					
-					CostToUpdate += 10;
+                    if (StorageArea.GetComponent<Diamond.Control.MineMachine>())
+                    {
+						Am.source.PlayOneShot(Am.Upgrade);
+						gm.MaxMoney -= CostToUpdate;
+						TotalCapacity += capacityMultiplier;
+						StorageArea.GetComponent<Diamond.Control.MineMachine>().MaxMinedObjectCanStore = TotalCapacity;
+						CostToUpdate += 10;
+					}
+					if (StorageArea.GetComponent<Diamond.Control.FilterMachine>())
+					{
+						Am.source.PlayOneShot(Am.Upgrade);
+						gm.MaxMoney -= CostToUpdate;
+						TotalCapacity += capacityMultiplier;
+						StorageArea.GetComponent<Diamond.Control.FilterMachine>().MaxMinedObjectCanStore = TotalCapacity;
+						CostToUpdate += 10;
+					}
 				}
 				catch
 				{
-					Am.source.PlayOneShot(Am.Upgrade);
-					gm.MaxMoney -= CostToUpdate;					
-					TotalCapacity += TotalCapacity;
-					StorageArea.GetComponent<Diamond.Control.FilterMachine>().MaxMinedObjectCanStore = TotalCapacity;
-					CostToUpdate += 10;
+                    				
 				}
 			}			
 		}
