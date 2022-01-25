@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 15139155}
   - component: {fileID: 15139156}
   m_Layer: 0
-  m_Name: Level 3
+  m_Name: YellowDiamond Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2064,6 +2064,49 @@ Transform:
   m_Father: {fileID: 1048378529}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &124584981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124584982}
+  - component: {fileID: 124584983}
+  m_Layer: 0
+  m_Name: Analytics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124584982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124584981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &124584983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124584981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a23fcada996c144d9958f6e23da72b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &127419000
 GameObject:
   m_ObjectHideFlags: 0
@@ -5050,7 +5093,7 @@ PrefabInstance:
     - target: {fileID: 3843010271110703690, guid: 137fda39094f31546a6e5e91725438bb,
         type: 3}
       propertyPath: m_Name
-      value: Filter Machine
+      value: Diamond Ore Filter Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 137fda39094f31546a6e5e91725438bb, type: 3}
@@ -5346,7 +5389,7 @@ GameObject:
   - component: {fileID: 319153052}
   - component: {fileID: 319153053}
   m_Layer: 0
-  m_Name: Level 4
+  m_Name: BlackDiamond Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9772,7 +9815,7 @@ PrefabInstance:
     - target: {fileID: 3843010271110703690, guid: 137fda39094f31546a6e5e91725438bb,
         type: 3}
       propertyPath: m_Name
-      value: Filter Machine
+      value: Diamond Ore Filter Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 137fda39094f31546a6e5e91725438bb, type: 3}
@@ -19093,7 +19136,7 @@ PrefabInstance:
     - target: {fileID: 6570523660075168907, guid: d79ca2a07c5ce324290e0b8162f74aae,
         type: 3}
       propertyPath: m_Name
-      value: Mining Machine
+      value: Diamond Ore Mining Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ca2a07c5ce324290e0b8162f74aae, type: 3}
@@ -20243,7 +20286,7 @@ PrefabInstance:
     - target: {fileID: 6570523660075168907, guid: d79ca2a07c5ce324290e0b8162f74aae,
         type: 3}
       propertyPath: m_Name
-      value: Mining Machine
+      value: Diamond Ore Mining Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ca2a07c5ce324290e0b8162f74aae, type: 3}
@@ -21864,7 +21907,7 @@ GameObject:
   - component: {fileID: 1585606693}
   - component: {fileID: 1585606694}
   m_Layer: 0
-  m_Name: Level 2
+  m_Name: RedDiamond Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24035,7 +24078,7 @@ PrefabInstance:
     - target: {fileID: 6570523660075168907, guid: d79ca2a07c5ce324290e0b8162f74aae,
         type: 3}
       propertyPath: m_Name
-      value: Mining Machine
+      value: Diamond Ore Mining Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ca2a07c5ce324290e0b8162f74aae, type: 3}
@@ -28500,7 +28543,7 @@ PrefabInstance:
     - target: {fileID: 3843010271110703690, guid: 137fda39094f31546a6e5e91725438bb,
         type: 3}
       propertyPath: m_Name
-      value: Filter Machine
+      value: Diamond Ore Filter Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 137fda39094f31546a6e5e91725438bb, type: 3}
@@ -30996,7 +31039,7 @@ PrefabInstance:
     - target: {fileID: 3843010271110703690, guid: 137fda39094f31546a6e5e91725438bb,
         type: 3}
       propertyPath: m_Name
-      value: Filter Machine
+      value: Diamond Ore Filter Machine
       objectReference: {fileID: 0}
     - target: {fileID: 6033303442630197753, guid: 137fda39094f31546a6e5e91725438bb,
         type: 3}
@@ -31225,7 +31268,7 @@ PrefabInstance:
     - target: {fileID: 6570523660075168907, guid: d79ca2a07c5ce324290e0b8162f74aae,
         type: 3}
       propertyPath: m_Name
-      value: Mining Machine
+      value: Diamond Ore Mining Machine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79ca2a07c5ce324290e0b8162f74aae, type: 3}

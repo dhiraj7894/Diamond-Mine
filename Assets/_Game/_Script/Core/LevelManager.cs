@@ -18,6 +18,7 @@ namespace Diamond.Core
 		{
 			Am = FindObjectOfType<Diamond.Core.AudioManager>();
 			gm = GetComponent<GameManager>();
+			
 		}
 		void Start()
 		{

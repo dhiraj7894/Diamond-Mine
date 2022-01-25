@@ -22,6 +22,9 @@ public class SAVE : MonoBehaviour
 					saveCounter = save;
 					FindObjectOfType<SaveAndLoadUniversal>().SaveGame();
 					FindObjectOfType<SaveAndLoadArea_1>().SaveGame();
+					FindObjectOfType<SaveAndLoadArea_2>().SaveGame();
+					FindObjectOfType<SaveAndLoadArea_3>().SaveGame();
+					FindObjectOfType<SaveAndLoadArea_4>().SaveGame();
 				}
 				catch
 				{

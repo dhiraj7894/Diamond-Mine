@@ -41,6 +41,7 @@ namespace Diamond.Control
 			Machine.isMachineUnlocked = true;
 			Machine.isUnlocked = true;
 			Machine.isMachineLocked = false;
+			FindObjectOfType<Analytics>().Machine(this.transform);
 		}
 		public void Lock()
 		{
