@@ -47,16 +47,9 @@ namespace Diamond.Movement
         float x, z;
         void movement()
         {
-#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
-            z = Input.GetAxisRaw("Horizontal");
-            x = -Input.GetAxisRaw("Vertical");
 
-#elif UNITY_ANDROID
             x = -joystick.Vertical;
             z = joystick.Horizontal;
-            
-#endif
-
 
             direction = new Vector3(x, 0, z).normalized;
             anim.SetFloat("speed", Mathf.Abs(direction.magnitude));
